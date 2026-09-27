@@ -1,0 +1,27 @@
+/venv
+__pycache__/
+db.sqlite3
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.keystore
+*.jks
+
+# Local tools, generated files and private runtime data
+.DS_Store
+.idea/
+.gradle/
+.venv/
+node_modules/
+build/
+local.properties
+*.py[cod]
+*.log
+backend/media/
+backend/static/
+backend/staticfiles/

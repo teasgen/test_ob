@@ -1,0 +1,108 @@
+{
+  "collector_version": "1.0",
+  "python_version": "3.14.5",
+  "scope": "source inspection only; no runtime or network checks",
+  "source_file_count": 132,
+  "manifest_sha256": "45369a63d8cc354ba108f21fd5cc449fc84e7968fc173c1e9308bf79156095cf",
+  "git_metadata_present": false,
+  "root_readme_bytes": 0,
+  "test_files": [
+    "HealthMonitor/app/src/androidTest/java/com/example/healthmonitor/ExampleInstrumentedTest.kt",
+    "HealthMonitor/app/src/test/java/com/example/healthmonitor/ExampleUnitTest.kt",
+    "frontend/src/App.test.js"
+  ],
+  "ci_files": [],
+  "viewsets": [
+    {
+      "name": "SpecializationViewSet",
+      "line": 46,
+      "get_queryset": false,
+      "get_permissions": false,
+      "permission_classes": true
+    },
+    {
+      "name": "ChronicDiseasViewSet",
+      "line": 53,
+      "get_queryset": false,
+      "get_permissions": false,
+      "permission_classes": true
+    },
+    {
+      "name": "AnalysisIndicatorsViewSet",
+      "line": 60,
+      "get_queryset": false,
+      "get_permissions": false,
+      "permission_classes": true
+    },
+    {
+      "name": "DoctorViewSet",
+      "line": 68,
+      "get_queryset": false,
+      "get_permissions": true,
+      "permission_classes": false
+    },
+    {
+      "name": "PatientViewSet",
+      "line": 178,
+      "get_queryset": false,
+      "get_permissions": false,
+      "permission_classes": false
+    },
+    {
+      "name": "DoctorPatientAssignmentViewSet",
+      "line": 254,
+      "get_queryset": true,
+      "get_permissions": false,
+      "permission_classes": false
+    },
+    {
+      "name": "DocumentViewSet",
+      "line": 311,
+      "get_queryset": false,
+      "get_permissions": false,
+      "permission_classes": false
+    },
+    {
+      "name": "DiaryViewSet",
+      "line": 374,
+      "get_queryset": false,
+      "get_permissions": false,
+      "permission_classes": false
+    },
+    {
+      "name": "AnalysisNotesViewSet",
+      "line": 384,
+      "get_queryset": false,
+      "get_permissions": false,
+      "permission_classes": false
+    },
+    {
+      "name": "NoteViewSet",
+      "line": 395,
+      "get_queryset": false,
+      "get_permissions": false,
+      "permission_classes": false
+    },
+    {
+      "name": "DeviceDataViewSet",
+      "line": 409,
+      "get_queryset": false,
+      "get_permissions": false,
+      "permission_classes": false
+    },
+    {
+      "name": "NotificationViewSet",
+      "line": 419,
+      "get_queryset": false,
+      "get_permissions": false,
+      "permission_classes": false
+    },
+    {
+      "name": "AppointmentViewSet",
+      "line": 446,
+      "get_queryset": false,
+      "get_permissions": false,
+      "permission_classes": false
+    }
+  ]
+}
